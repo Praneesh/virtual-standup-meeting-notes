@@ -4,8 +4,7 @@
   "description": "A sample project that can be used as a boilerplate or starter kit for getting started with NodeJS, MongoDB, Express.",
   "main": "index.js",
   "scripts": {
-    "security-check": "nsp check",
-    "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\""
+    "security-check": "nsp check"
   },
   "repository": {
     "type": "git",
