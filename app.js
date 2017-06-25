@@ -8,6 +8,12 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+// Mongoose ODM
+var mongoose = require('mongoose');
+
+// Connect to MongoDB
+mongoose.connect('mongodb://vsmeetingnotesuser:vsMeetingNotesU$3r@ds135592.mlab.com:35592/virtual-standup-meeting-notes');
+
 var app = express();
 
 var swig = require('swig');
